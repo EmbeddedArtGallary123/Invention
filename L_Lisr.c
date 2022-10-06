@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -28,8 +27,7 @@ void create_list()
             printf("node- %d = %d\n",i ,pnew->val);
         }
         else 
-        {
-            
+        {            
             struct node *tmp;
             
             tmp = head;
@@ -56,14 +54,9 @@ void length_list()
     }
     printf("count is - %d", count);
 }
-
-
-
 int main() {
    
    create_list();
    length_list();
-   
-
     return 0;
 }
