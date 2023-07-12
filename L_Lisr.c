@@ -60,3 +60,17 @@ int main() {
    length_list();
     return 0;
 }
+
+
+//reverse logic
+struct node *phead, *Ptrave, *Prev;
+
+phead = head node ;
+
+while (phead != NULL)
+{
+	ptrave = phead -> nxt;
+	phead -> nxt = prev;
+	prev = phead;
+	phead = ptrave;
+}
